@@ -54,7 +54,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+  
 .main__div{
     text-align: center;
 }
@@ -242,6 +242,24 @@
     font-family: Be Vietnam Pro;
     font-weight: 200;
 }
+
+.button{
+    width: 5rem;
+    height: 1.5rem;
+    background-color: #009DA2;
+    border-color: #009DA2;
+    border-style: none;
+    font-family: Be Vietnam Pro;
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: #F0F0F0;
+    transition: font-size 0.5s;
+}
+
+.button:hover{
+    font-size: 1rem;
+}
+
 
   /*MEDIA QUERIES*/
 
