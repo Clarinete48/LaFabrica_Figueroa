@@ -230,10 +230,11 @@
 /*CONTACTO*/
 
 .form{
-    padding: 13rem 28rem 7rem;
+    padding: 7rem;
 }
 
 .form__title{
+    margin-top: 7rem;
     font-family: Be Vietnam Pro;
     font-weight: 400;
 }

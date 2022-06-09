@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,26 +22,27 @@
              </ul>
         </nav>
     </header>
-<form class="form" action="" method="get" enctype="text/plain" >
-    <fieldset>
-        <legend class="form__title">CONTÁCTANOS</legend>
-        <div>
-            <label class="form__lable" for="userName">Nombre</label>
-            <input type="text" id="userName" name="userName" required>
-        </div>
-        <div>
-            <label class="form__lable" for="userEmail">Correo</label>
-            <input type="email" id="userEmail" name="userEmail" required>
-        </div>
-        <div>
-            <label class="form__lable" for="userComment">Comentario</label>
-            <textarea name="userComment" id="userComment" cols="30" rows="10" placeholder="Escriba sus requerimientos" required></textarea>
-        </div>
-        <input class="button" type="reset" value="RESET">
-        <input class="button" type="submit" value="ENVIAR">   
-    </fieldset>
-</form>
-</body>
+    <section class="container">
+        <form class="form"  action="" method="get" enctype="text/plain" >
+            <fieldset class="column">
+                <legend class="form__title">CONTÁCTANOS</legend>
+                <div class="row align-self-center">
+                    <label class="form__lable" for="userName">Nombre:</label>
+                    <input type="text" id="userName" name="userName" required>
+                </div>
+                <div class="row align-self-center">
+                    <label class="form__lable" for="userEmail">Correo:</label>
+                    <input type="email" id="userEmail" name="userEmail" required>
+                </div>
+                <div class="row align-self-center">
+                    <label class="form__lable" for="userComment">Comentario:</label>
+                    <textarea name="userComment" id="userComment" cols="30" rows="10" placeholder="Escriba sus requerimientos" required></textarea>
+                </div class="row align-self-center">
+                <input class="button" type="reset" value="RESET">
+                <input class="button" type="submit" value="ENVIAR">   
+            </fieldset>
+        </form>
+    </section>
 <footer class="footer">
     <nav class="footer__nav">
         <h2 class="footer__title">Síguenos en nuestras redes</h2>
@@ -50,4 +52,6 @@
         </div>
     </nav>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
 </html>
